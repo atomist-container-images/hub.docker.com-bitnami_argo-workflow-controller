@@ -1,12 +1,16 @@
-# Tags: latest, 3.3.4-scratch-r0, 3.3.4, 3-scratch, 3
+# Tags: latest, 3.3.5-scratch-r0, 3.3.5, 3-scratch, 3
 FROM bitnami/argo-workflow-controller:latest
-FROM bitnami/argo-workflow-controller:3.3.4-scratch-r0
-FROM bitnami/argo-workflow-controller:3.3.4
+FROM bitnami/argo-workflow-controller:3.3.5-scratch-r0
+FROM bitnami/argo-workflow-controller:3.3.5
 FROM bitnami/argo-workflow-controller:3-scratch
 FROM bitnami/argo-workflow-controller:3
 
 # Tags: _
 FROM bitnami/argo-workflow-controller:_
+
+# Tags: 3.3.4-scratch-r0, 3.3.4
+FROM bitnami/argo-workflow-controller:3.3.4-scratch-r0
+FROM bitnami/argo-workflow-controller:3.3.4
 
 # Tags: 3.3.3-scratch-r0, 3.3.3
 FROM bitnami/argo-workflow-controller:3.3.3-scratch-r0
